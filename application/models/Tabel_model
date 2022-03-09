@@ -1,0 +1,9 @@
+<?php
+class Groupp_model extends CI_Model{
+
+	public function select_groupp()
+	{
+		$query = $this->db->query('select * from groupp'); 
+		return $query->result_array();
+	}
+	?>

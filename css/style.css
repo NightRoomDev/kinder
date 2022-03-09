@@ -1,0 +1,35 @@
+.bg-body {
+    background: url(../images/bg.gif) !important;
+}
+
+.intelligence-list li a, .branch-list li a {
+    text-decoration: underline;
+    font-size: 16px;
+}
+
+.intelligence-list li, .branch-list li {
+    list-style-type: none;
+}
+
+.bg-navbar {
+    background: #0b789c;
+}
+
+.doo-information-list, .general-information-list, .documentation-list, .parents-list {
+    background: white;
+}
+
+.doo-information-list li, .general-information-list li, .documentation-list li, .parents-list li {
+    list-style-type: none;
+}
+
+.doo-information-list li a, .general-information-list li a, .documentation-list li a, .parents-list li a {
+    font-size: 14px;
+    text-decoration: underline;
+}
+.error-text { 
+    color:red; 
+    font-weight:bold; 
+    text-align:center; 
+    font-size:18px; 
+}
